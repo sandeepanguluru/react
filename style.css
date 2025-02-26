@@ -1,13 +1,80 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-h1{
+  }
+  .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-#header{
-    color: blue;
-}
+    border: 1px solid #000;
+    padding: 0px 20px;
+    margin: 10px;
+  }
+  .logo img {
+    height: 70px;
+    width: 70px;
+  }
+  .navItems > ul {
+    display: flex;
+    align-items: center;
+  }
+  .navItems > ul > li {
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .card {
+    width: 230px;
+    height: 350px;
+    background: #f0f0f0;
+    margin: 10px;
+    padding: 8px;
+    overflow: hidden;
+    overflow-y: scroll;
+  
+  }
+  .card > img {
+  height: 150px;
+  width: 100%;
+  }
+  
+  .cardData{
+      line-height: 30px;
+  }
+  .search {
+    padding: 10px;
+  }
+  .card:hover{
+      border: 1px solid #000;
+      cursor: pointer;
+  }
+  .res-cards{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .filter{
+    display: flex;
+  }
+  
+  .filter-btn{
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shimmer-card{
+    width: 230px;
+    height: 350px;
+    background: #f0f0f0;
+    margin: 10px;
+  }
+  .login-btn {
+    padding:  3px 8px;
+    cursor: pointer;
+  }
